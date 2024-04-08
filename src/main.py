@@ -6,7 +6,6 @@ def _compare_cards(attack:Tuple, defend:Tuple, trump:str):
     """
     return true if defended
     """
-    # TODO Trumpf
     if attack[1] == defend[1]:
         if defend[0] > attack[0]:
             return True
